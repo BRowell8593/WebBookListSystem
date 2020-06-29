@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: #88BDBC
+}
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add styles to the form container */
+.container {
+  position: relative; 
+  margin: auto;
+  max-width: 500px;
+  padding: 16px;
+  background-color: #88BDBC;
+  border: solid 2px black;
+  top: 50px;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1; 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4F4A41;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.8;
+  position: relative; 
+  left: 15%
+  
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.footer {
+	background-color: #88BDBC;
+	height: 50px;
+	width: 100%;
+	text-align:center;
+	border-top: 3px solid black; 
+	position: fixed; 
+	bottom: 0px;
+}
+
+h3 {
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+	font-size: 14px; 
+	float: left; 
+}
+
+h4 {
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+	font-size: 14px; 
+	float: right; 
+}
